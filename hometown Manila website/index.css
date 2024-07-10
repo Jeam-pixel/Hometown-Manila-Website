@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;    
+}
+
+.hero {
+    background-image: url("images/manila.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.black-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 30%;
+    margin: 50px;
+    color: white;
+    padding: 30px 300px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#activity-wrapper {
+    background: #D6FAFF;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.activities {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.activity-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.activity-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    min-width: 450px;
+    flex: 1;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+}
+
+#namecard {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    background: #9DE7FB;
+    border: 10px solid #14C4F5;
+    margin:  100px auto;
+    padding: 40px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+}
+
+#copyright {
+    text-align: center;
+    background: #D6FAFF;
+    margin: 0;
+    padding: 0px;
+}
